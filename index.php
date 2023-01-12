@@ -1,6 +1,3 @@
-
-
-
 <?php
 
 /* conecta banco de dados */
@@ -10,6 +7,15 @@
 
 /* fechando a conexão */
 
+for ($contador=0; $contador < 80; $contador++) { 
+    printar($contador);
+}
+
+
+
+function printar($contador){
+    echo $contador
+} 
      
      
 
